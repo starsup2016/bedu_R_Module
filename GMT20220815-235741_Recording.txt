@@ -1,0 +1,15 @@
+00:10:06	Angelica Pérez:	mañana la sesión es a las misma hora ?
+00:12:25	Angelica Pérez:	gracias :)
+01:53:07	Rafael Ordoño:	alum= read.csv("Alumno.csv", sep = ";")
+02:02:26	Rodolfo Zepeda:	Si, gracias Jaffet!
+02:51:01	Rodolfo Zepeda:	Gracias por compartir tu experiencia
+02:58:14	Alex Castro:	geom_vline(aes(xintercept = mean(MIN)),col='red',size=2)
+02:58:23	Rodolfo Zepeda:	ggplot(datapl, aes(datapl$MIN)) +  geom_histogram() +  geom_vline(xintercept = mean(datapl$MIN))
+03:00:52	Anndy:	https://bedu-formularios.typeform.com/to/N94yh0Rn
+03:05:59	Jaffet León:	http://stats.nba.com/leaders#!?Season=2014-15&SeasonType=Regular%20Season&StatCategory=MIN&CF=MING2&PerMode=Totals
+03:06:17	Arnol Maldonado:	profe a que hora seria la calse de mañana y cuanto duraría?
+03:07:03	Arnol Maldonado:	descansen
+03:07:06	Arnol Maldonado:	gracias
+03:08:31	EMMANUEL ACHILLES MOURET CARRILLO:	url1 <- "http://stats.nba.com/leaders#!?Season=2014-15&SeasonType=Regular%20Season&StatCategory=MIN&CF=MING2&PerMode=Totals"download.file(url = url1, destfile = "players_stats.csv", mode = "wb")data=read.csv("players_stats.csv")View(data)
+03:15:04	Jaffet León:	https://raw.githubusercontent.com/beduExpert/Programacion-con-R-Santander/master/Sesion-03/Reto-02/players_stats.csv
+03:17:47	EMMANUEL ACHILLES MOURET CARRILLO:	Muchas gracias a todos, buenas noches
