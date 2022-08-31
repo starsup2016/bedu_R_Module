@@ -1,0 +1,13 @@
+name: App_web_from_R
+title: App_web_from_R
+username:
+account: st4rsup
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6883843
+bundleId: 6253805
+url: https://st4rsup.shinyapps.io/App_web_from_R/
+when: 1661909965.33575
+lastSyncTime: 1661909965.33576
+asMultiple: FALSE
+asStatic: FALSE
