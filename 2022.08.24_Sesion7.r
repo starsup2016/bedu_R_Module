@@ -8,6 +8,8 @@ dbListTables(con)
 # puede tener eventualmente explosividad.
 
 
+
+
 library("TSA")
 library("ggplot2")
 ok <- complete.cases(Month_Value_1)
