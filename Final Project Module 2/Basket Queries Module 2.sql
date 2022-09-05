@@ -19,6 +19,8 @@ select * from mteams where TeamName='Chicago St'; -- Chicago St -> TeamID = 1152
 
 -- Selection for Duke
 select * from mregularseasondetailedresults as dere join mteams as team on WTeamID = TeamID where WTeamID=1181 or LTeamID=1181;
+select distinct(Season), count(TeamName) from mregularseasondetailedresults as dere join mteams as team on WTeamID = TeamID where WTeamID=1181 or LTeamID=1181 group by Season, TeamName;
+select distinct(Season), count(TeamName) from mregularseasondetailedresults as dere join mteams as team on WTeamID = TeamID where WTeamID=1181 or LTeamID=1181 group by Season;
 -- Selection for Kansas
 select * from mregularseasondetailedresults as dere join mteams as team on WTeamID = TeamID where WTeamID=1242 or LTeamID=1242;
 -- Selection for Chicago St
